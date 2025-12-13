@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aafiya Mediretreats</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- Owl carousel & jQuery -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+  
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="page-content">
+    <!-- Top-Header -->
+    <header class="top-header">
+      <!-- Left content -->
+      <div class="left-box">
+        <img src="https://via.placeholder.com/60x60" class="company-logo" alt="Logo ">
+        <div class="company-info">
+          <h2 class="company-name">AAFIYA MEDIRETREATS</h2>
+          <P class="compnay-tagline">Healing Globally...</P>
+        </div>
+        <img src="https://via.placeholder.com/60x60" class="mediretreats" alt="Medical Logo ">
+      </div>
+
+      <!-- Right content-->
+      <div class="right-box">
+        <div class="info-item">
+          <i class="fa-solid fa-user-doctor"></i>
+          <div class="text">
+            <p>Second Medical Opinion</p>
+            <h3>Book Consultation</h3>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-phone-volume"></i>
+          <div class="text">
+            <p>Call Us On</p>
+            <h3>9858962222</h3>
+          </div>            
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-envelope-open"></i>
+          <div class="text">
+            <p>Email Us On</p>
+            <h3>info@mediretreats.com</h3>
+          </div>
+        </div>
+
+        <div class="info-item country-box">
+          <select id="countrySelect" class="flag-select">
+            <option value="in" data-flag="https://flagcdn.com/w20/in.png">India</option>
+            <option value="ae" data-flag="https://flagcdn.com/w20/ae.png">UAE</option>
+            <option value="qa" data-flag="https://flagcdn.com/w20/qa.png">Qatar</option>
+            <option value="us" data-flag="https://flagcdn.com/w20/us.png">USA</option>
+            <option value="uk" data-flag="https://flagcdn.com/w20/gb.png">UK</option>
+            <option value="sa" data-flag="https://flagcdn.com/w20/sa.png">Saudi Arabia</option>
+          </select>
+
+        </div>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="#">Book Consultation</a></li>
+        <li><a href="#">Call Us: 9858962222</a></li>
+        <li><a href="#">Email: info@mediretreats.com</a></li>
+        <li><a href="#">Change Country</a></li>
+      </ul>
+    </div>
+
+    <nav id="aa-nav" class="aa-nav">
+      <div class="aa-nav-inner">
+        <ul id="aa-navlinks" class="aa-navlinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li class="has-dd"><a href="#">Treatments +</a></li>
+          <li class="has-dd"><a href="#">Destinations +</a></li>
+          <li><a href="#">Hospitals</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#" class="aa-quote">Request A Quote</a></li>
+        </ul>
+
+        <div class="aa-search-wrap">
+          <div class="aa-search">
+            <button id="aa-search-btn" class="aa-search-btn" aria-label="Open search"><i class="fa fa-search"></i></button>
+            <input id="aa-search-input" type="text" placeholder="Search" aria-label="Search">
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="aa-hero">
+      <div class="aa-hero-left">
+
+        <!-- Breadcrumbs -->
+        <div class="aa-breadcrumbs">
+          <a href="#">Home</a>
+          <span>›</span>
+          <a href="#">Treatments</a>
+          <span>›</span>
+          <a href="#">Orthopaedics</a>
+          <span>›</span>
+          <span class="current">Knee Replacement</span>
+        </div>
+
+        <h1 class="aa-hero-title">Total Knee Replacement</h1>
+
+        <p class="aa-hero-desc">
+          Total knee replacement is a surgery to remove and replace the whole damaged knee joint with an artificial joint.
+        </p>
+
+        <button class="aa-enquire-btn">Enquire Now</button>
+      </div>
+
+      <div class="aa-hero-right">
+        <!-- Placeholder image -->
+        <img src="https://via.placeholder.com/500x600" alt="Knee Image">
+      </div>
+    </section>
+
+    <!-- Tab Navigation -->
+    <section class="aa-tabs-section">
+      <div class="aa-tabs">
+        <button class="aa-tab active">Overview</button>
+        <button class="aa-tab">Eligibility</button>
+        <button class="aa-tab">Preparation</button>
+        <button class="aa-tab">About Treatment</button>
+        <button class="aa-tab">Post-Treatment Care</button>
+        <button class="aa-tab">Recovery Tips</button>
+        <button class="aa-tab">FAQs</button>
+        <button class="aa-tab">Patient Stories</button>
+      </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="aa-overview">
+      <div class="aa-content-wrapper aa-overview-inner">
+
+        <div class="aa-overview-text">
+          <h2>Treatment Overview</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam.
+          </p>
+        </div>
+
+        <div class="aa-overview-image">
+          <img src="https://via.placeholder.com/520x320" alt="Treatment Image">
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Eligibility Content -->
+    <section class="aa-treatment-wrapper">
+      <div class="aa-content-wrapper aa-treatment-layout">
+
+        <!-- LEFT CONTENT -->
+        <div class="aa-treatment-content">
+
+          <div class="aa-block">
+            <h3>Eligibility For Treatment.</h3>
+
+            <p>
+              Any individual who has tried diet and exercise but failed to lose weight
+              is considered as a good candidate for gastric bypass. Although gastric
+              bypass aids in weight loss, it is not an appropriate option for everyone.
+              Based on the overall health and certain medical guidelines, the doctor
+              will decide whether you are eligible for gastric bypass or not.
+            </p>
+
+            <p>In general, gastric bypass could be a good option if:</p>
+
+            <ul class="aa-bullet-list">
+              <li>The BMI (body mass index) is 40 or more</li>
+              <li>
+                Your BMI is 30 or more with severe weight-related health conditions like
+                type-2 diabetes and high blood pressure
+              </li>
+              <li>You are willing to make permanent changes in the lifestyle</li>
+            </ul>
+          </div>
+
+          <div class="aa-divider"></div>
+
+          <div class="aa-block">
+            <h3>Preparation Before Treatment.</h3>
+
+            <p>
+              Any individual who has tried diet and exercise but failed to lose weight
+              is considered as a good candidate for gastric bypass. Although gastric
+              bypass aids in weight loss, it is not an appropriate option for everyone.
+              Based on the overall health and certain medical guidelines, the doctor
+              will decide whether you are eligible for gastric bypass or not.
+            </p>
+
+            <p>In general, gastric bypass could be a good option if:</p>
+
+            <ul class="aa-bullet-list">
+              <li>The BMI (body mass index) is 40 or more</li>
+              <li>Your BMI is 30 or more with severe weight-related health conditions</li>
+              <li>You are willing to make permanent changes in the lifestyle</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- RIGHT FORM -->
+        <aside class="aa-help-box">
+          <h4>Need Help?</h4>
+          <p>Just let us know. We will be happy to assist you.</p>
+
+          <form id="helpForm" action="#">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone Number" maxlength="10" required>
+            <textarea placeholder="Describe Your Treatment Requirement" required></textarea>
+            <button type="submit">Send Enquiry</button>
+          </form>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- About Treatment -->
+    <section class="aa-treatment-section">
+      <div class="aa-content-wrapper">
+
+        <div class="aa-content-block">
+          <h3>About Treatment.</h3>
+
+          <p>
+            Any individual who has tried diet and exercise but failed to lose weight
+            is considered as a good candidate for gastric bypass. Although gastric
+            bypass aids in weight loss, it is not an appropriate option for everyone.
+            Based on the overall health and certain medical guidelines, the doctor
+            will decide whether you are eligible for gastric bypass or not.
+          </p>
+
+          <p>In general, gastric bypass could be a good option if:</p>
+
+          <ul class="aa-bullet-list">
+            <li>The BMI (body mass index) is 40 or more</li>
+            <li>
+              Your BMI is 30 or more with severe weight-related health conditions like
+              type-2 diabetes and high blood pressure
+            </li>
+            <li>You are willing to make permanent changes in the lifestyle</li>
+          </ul>
+        </div>
+
+        <div class="aa-divider"></div>
+
+        <div class="aa-content-block">
+          <h3>Post-Treatment Care Treatment.</h3>
+
+          <p>
+            Any individual who has tried diet and exercise but failed to lose weight
+            is considered as a good candidate for gastric bypass. Although gastric
+            bypass aids in weight loss, it is not an appropriate option for everyone.
+            Based on the overall health and certain medical guidelines, the doctor
+            will decide whether you are eligible for gastric bypass or not.
+          </p>
+
+          <ul class="aa-bullet-list">
+            <li>The BMI (body mass index) is 40 or more</li>
+            <li>Your BMI is 30 or more with severe weight-related health conditions</li>
+            <li>You are willing to make permanent changes in the lifestyle</li>
+          </ul>
+        </div>
+        <div class="aa-divider"></div>
+
+        <div class="aa-content-block">
+          <h3>Treatment Recovery Tips.</h3>
+
+          <p>
+            Any individual who has tried diet and exercise but failed to lose weight
+            is considered as a good candidate for gastric bypass. Although gastric
+            bypass aids in weight loss, it is not an appropriate option for everyone.
+            Based on the overall health and certain medical guidelines, the doctor
+            will decide whether you are eligible for gastric bypass or not.
+          </p>
+
+          <ul class="aa-bullet-list">
+            <li>The BMI (body mass index) is 40 or more</li>
+            <li>Your BMI is 30 or more with severe weight-related health conditions</li>
+            <li>You are willing to make permanent changes in the lifestyle</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="aa-faq-section">
+      <div class="aa-content-wrapper">
+
+        <h3 class="aa-faq-title">Treatment FAQs<span>.</span></h3>
+
+        <div class="aa-faq-list">
+
+          <div class="aa-faq-item">
+            <button class="aa-faq-question">
+              <span class="aa-icon">+</span>
+              How do I know the clinic I am searching is verified?
+            </button>
+          </div>
+
+          <div class="aa-faq-item">
+            <button class="aa-faq-question">
+              <span class="aa-icon">+</span>
+              I can’t travel alone so can some family member or friend of mine accompany me?
+            </button>
+          </div>
+
+          <div class="aa-faq-item active">
+            <button class="aa-faq-question">
+              <span class="aa-icon">−</span>
+              Can I see my doctor before I decide and what about my post recovery?
+            </button>
+
+            <div class="aa-faq-answer">
+              <p>
+                Yes, pre and post treatment consultation can be done. You can speak to the
+                doctor at the most appropriate time (before you decide to travel) to boost
+                your confidence. The team at Meditreats will also help you with arranging
+                the OPD’s after the surgeries.
+              </p>
+            </div>
+          </div>
+
+          <div class="aa-faq-item">
+            <button class="aa-faq-question">
+            <span class="aa-icon">+</span>
+              How do I share my reports and medical cases with the clinic of my choice?
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- Patient stories and video -->
+    <section class="aa-stories-section">
+      <div class="aa-content-wrapper">
+        <h3 class="aa-section-title">Patient Stories & Videos<span>.</span></h3>
+        <div class="aa-stories-grid">
+
+          <!-- Card 1 -->
+          <div class="aa-story-card">
+          <div class="aa-quote-2">“</div>
+
+          <h4>Underwent procedure for retinal detachment</h4>
+
+          <div class="aa-video-box">
+            <img src="https://via.placeholder.com/420x240" alt="Patient Video">
+            <span class="aa-play-btn">
+              <i class="fa fa-play"></i>
+            </span>
+          </div>
+
+          <div class="aa-user">
+            <img src="https://via.placeholder.com/60" alt="User">
+            <div>
+              <strong>Luke Olfert</strong>
+              <span>New York, USA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="aa-story-card">
+          <div class="aa-quote">“</div>
+
+          <h4>Underwent Colonoscopy and Medical Management</h4>
+
+          <p class="aa-story-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+
+          <div class="aa-user">
+              <img src="https://via.placeholder.com/60" alt="User">
+              <div>
+                <strong>Luke Olfert</strong>
+                <span>Sydney, Australia</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Dots -->
+        <div class="aa-dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Doctors sections -->
+    <section class="aa-doctors-section">
+      <div class="aa-content-wrapper">
+
+      <div class="aa-doctors-header">
+        <span class="aa-doctors-label">Doctors</span>
+        <h2>Top Orthopaedic <span>Doctors</span></h2>
+      </div>
+
+      <div class="aa-doctors-grid">
+
+      <!-- Doctor Card -->
+      <div class="aa-doctor-card">
+        <div class="aa-doctor-img"></div>
+
+        <h4>Dr. Faique Faikhe</h4>
+        <p class="aa-doctor-location">Musaffah Industrial - Abu Dhabi</p>
+        <p class="aa-doctor-degree">Doctor Degree & Specialist</p>
+      </div>
+
+      <!-- Doctor Card -->
+      <div class="aa-doctor-card">
+        <div class="aa-doctor-img"></div>
+
+          <h4>Dr. Faique Faikhe</h4>
+          <p class="aa-doctor-location">Musaffah Industrial - Abu Dhabi</p>
+          <p class="aa-doctor-degree">Doctor Degree & Specialist</p>
+        </div>
+
+        <!-- Doctor Card -->
+        <div class="aa-doctor-card">
+          <div class="aa-doctor-img"></div>
+
+            <h4>Dr. Faique Faikhe</h4>
+            <p class="aa-doctor-location">Musaffah Industrial - Abu Dhabi</p>
+            <p class="aa-doctor-degree">Doctor Degree & Specialist</p>
+          </div>
+
+        </div>
+
+        <!-- Slider dots -->
+        <div class="aa-doctor-dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- hospitals sections -->
+    <section class="aa-hospitals-section">
+      <div class="aa-content-wrapper">
+
+        <div class="aa-hospitals-header">
+          <span class="aa-hospitals-label">Hospitals</span>
+          <h2>Recommended <span>Hospitals</span></h2>
+        </div>
+
+        <div class="aa-hospitals-grid">
+
+          <!-- Hospital Card -->
+          <div class="aa-hospital-card">
+            <img src="images/apollo.jpg" alt="Apollo Hospital">
+            <h4>Apollo Hospital</h4>
+            <p>Bangalore</p>
+          </div>
+
+          <!-- Hospital Card -->
+          <div class="aa-hospital-card">
+            <img src="images/medanta.jpg" alt="Medanta Hospital">
+            <h4>Medanta Hospital</h4>
+            <p>Gurgaon</p>
+          </div>
+
+          <!-- Hospital Card -->
+          <div class="aa-hospital-card">
+            <img src="images/jaslok.jpg" alt="Jaslok Hospital">
+            <h4>Jaslok hospital</h4>
+            <p>Mumbai</p>
+          </div>
+        </div>
+
+        <!-- Dots -->
+        <div class="aa-hospital-dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Footer Text -->
+        <p class="aa-hospital-footer">
+          Don’t hesitate, contact us for better help and services.
+          <a href="#">Explore all Hospitals</a>
+        </p>
+
+      </div>
+    </section>
+
+    <!-- CTA and Footer -->
+    
+    <!-- CTA Section -->
+    <section class="aa-cta-section">
+      <div class="aa-content-wrapper aa-cta-content">
+        <div class="aa-cta-text">
+          <p class="aa-cta-small">Stay healthy and strong to enjoy life</p>
+          <h2>We have team of healthcare experts</h2>
+
+          <div class="aa-cta-actions">
+            <a href="#" class="aa-btn-primary">Get In Touch</a>
+            <span class="aa-cta-phone">+91 898 777 9999</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="aa-footer">
+      <div class="aa-content-wrapper">
+
+        <div class="aa-footer-top">
+          <div class="aa-footer-col">
+            <h4>Important Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+          </div>
+
+          <div class="aa-footer-col">
+            <h4>Top Hospitals</h4>
+            <ul>
+              <li>Apollo Hospital Delhi</li>
+              <li>Medanta Hospital Gurgaon</li>
+              <li>Max Hospital Delhi</li>
+              <li>Jaslok Hospital Mumbai</li>
+              <li>Artemis Hospital Gurgaon </li>
+              <li>Fortis Hospital Gurgaon</li>
+              <li><a href="#">View All</a></li>
+            </ul>
+          </div>
+
+          <div class="aa-footer-col">
+            <h4>Speciality Treatments</h4>
+            <ul>
+              <li>Knee Replacement Surgeon</li>
+              <li>Urologist</li>
+              <li>Spine Surgeon</li>
+              <li>ENT Surgeons</li>
+              <li>Orthopedic</li>
+              <li>Cardiologist</li>
+              <li><a href="#">View All</a></li>
+            </ul>
+          </div>
+
+          <div class="aa-footer-col">
+            <h4>Medical Tourism Destinations</h4>
+            <ul>
+              <li>Medical Tourism in India</li>
+              <li>Medical Tourism in Sri Lanka</li>
+              <li>Medical Tourism in UAE</li>
+              <li><a href="#">View All</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="aa-footer-middle">
+          <div class="aa-footer-about">
+            <h4>About Aafiya Mediretreats</h4>
+            <p>
+              Aafiya Mediretreats is a free, confidential, independent resource
+              for patients and industry providers. Our mission is to provide a
+              central portal where patients, hospitals, clinics, employers, and
+              insurance companies can all find the information they need. Our site dental tourism and health tourism.
+            </p>
+          </div>
+
+          <div class="aa-footer-contact">
+            <h4>Follow Us On</h4>
+            <div class="aa-socials">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <p class="aa-footer-phone">
+              Customer Service<br>
+              <strong>+91 9856555666</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="aa-footer-bottom">
+          <p>Copyright © 2020 Aafiya Mediretreats. All Rights Reserved.</p>
+          <div>
+            <a href="#">Terms And Conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
